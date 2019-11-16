@@ -1,0 +1,167 @@
+@media (max-width : 767px) {
+    #HeaderComponent .ml-auto a{
+    display: inline-block;
+    margin: 4px 5px;
+    color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#HeaderComponent h4{
+    font-size: 15px;
+}
+
+#HeaderComponent h1{
+    font-size: 16px !important;
+}
+
+#HeaderComponent .ml-auto a #icon {
+    font-size: 11px;
+    vertical-align: 21px;
+}
+
+#HeaderComponent h1{
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+#HeaderComponent {
+  height: 45vh;
+}
+
+#AboutUsComponent{
+    padding:  100px 20px;
+}
+
+#mission-icon {
+    font-size: 14px !important;
+    border: 1px solid #1ABC9C;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding-left: 8px;
+    padding-top: 7px;
+    color: #D9534F;
+    margin-bottom: 9px;
+    margin-left: 15px
+}
+
+#AboutUs {
+    margin-top: 80px !important;
+}
+
+#AboutUsComponent img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    vertical-align: 55px;
+    border: 1.5px solid #1ABC9C;
+}
+
+#ServicesComponent {
+    background-color: #312f2f;
+    padding: 30px;
+    max-height: 60%;
+    color: #eee;
+    padding: 70px 0;
+}
+
+#ServicesComponent center {
+    padding: 0px 20px;
+}
+
+#ServicesComponent center span{
+    font-size: 12px;
+}
+
+#services {
+    padding: 60px 20px;
+}
+
+#services h6 {
+    margin: 10px 0 10px 0;
+}
+
+#services #icons{
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#services ul {
+    padding: 0px 20px;
+}
+
+#ContactComponent {
+    padding: 70px 30px;
+}
+
+#location-panel li{
+    color: #000;
+    line-height: 21px;
+}
+
+#location-panel {
+    height: 22rem !important;
+}
+
+#marker {
+    visibility: hidden;
+}
+
+.navbar-brand{
+     width: 40% !important;
+}
+
+.navbar-brand img {
+    width: 100% !important;
+    height: 50px;
+
+}
+
+
+}
+
+@media (min-width : 767px) and (max-width : 1024px) {
+
+    #AboutUsComponent{
+        padding:  80px 20px;
+    }
+   #AboutUsComponent img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        vertical-align: 55px;
+        border: 1.5px solid #1ABC9C;
+    }
+    #mission-icon {
+        font-size: 14px !important;
+        border: 1px solid #1ABC9C;
+        border-radius: 100%;
+        height: 35px;
+        padding-left: 6px;
+        padding-top: 5px;
+        margin-bottom: 9px;
+        margin-left: 15px
+    }
+
+    #ServicesComponent center{
+        padding: 0px 100px;
+    }
+    #services {
+        padding: 60px 40px;
+    }
+
+    #HeaderComponent { 
+        height: 45vh;
+    }
+
+    #ContactComponent {
+        padding: 70px 150px;
+    }
+
+}
